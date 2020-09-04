@@ -63,7 +63,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** https://miljuschka.nl/
 
 **Screenshot(s):**
-(images/Schermafbeelding 2020-09-04 om 13.34.55.png)
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
