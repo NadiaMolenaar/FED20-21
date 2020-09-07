@@ -71,4 +71,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Breakdown-schets(en):**
 
-![Breakdown-schets volledig](images/dummy-image.svg)
+![Breakdown-schets volledig](images/1-breakdown.jpg)
+![Breakdown-schets volledig](images/2-breakdown.jpg)
+![Breakdown-schets volledig](images/3-breakdown.jpg)
