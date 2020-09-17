@@ -1,5 +1,43 @@
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: Montserrat,sans-serif;
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+header a img {
+  max-width: 100%;
+}
+
+.start h1 {
+  width: 63%;
+  line-height: 1.1;
+  background-color: #fff;
+  /*margin-bottom: 0;*/
+  padding: 7px 15px 0;
+  position: absolute;
+  /*bottom: 0;
+  left: 0;*/
+}
+
+.start img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #000;
+  letter-spacing: .01em;
+  font-family: 'Noto Serif', serif;
+}
