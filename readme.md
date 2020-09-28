@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://miljuschka.nl/
-2. -bron 2-
+2. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 3. -...-
 
 
@@ -38,7 +38,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+  • Het ging gemakkelijk om de html te schrijven die zich op de website bevindt
+  • Het ging makkelijk om de navigatie te schrijven in de html
+  
+  • Het was lastig om het menu in de navigatiebalk te verwerken
 
 **Screenshot(s):**
 
@@ -46,11 +49,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+  • Flexbox; blokken naast elkaar zetten
+  • Pannenkoeken (hamburger) menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
+  • Java; 360 turn
+  • Let keyword javascript
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+  • 
 
 
 
