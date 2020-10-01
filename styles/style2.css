@@ -1,0 +1,64 @@
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    font-size: 0.875em;
+    line-height: 1.4;
+  }
+
+  .menu {
+      height: 3em;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+      padding-top: 0.875em;
+      padding-right: 1em;
+      padding-left: 1em;
+      width: 100%;
+      display: flex;
+      position: relative;
+      z-index: 98;
+      align-items: center;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    color: #000;
+    font-size: 0.875em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .recepten {
+      color: #000;
+      font-size: 0,875em;
+      background-color: #f7f7f7;
+      padding: 0.875em 1.5em;
+      font-weight: 700;
+      letter-spacing: .01em;
+      border-bottom: 0;
+  }
+
+  .blog h3::after {
+      z-index: 1;
+      height: 0.06em;
+      background: rgba(229, 230, 231, 0.233);
+      position: absolute;
+      top: 50%;
+      left: 0;
+  }

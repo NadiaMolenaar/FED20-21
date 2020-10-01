@@ -16,7 +16,83 @@ body {
   line-height: 1.4;
 }
 
-header a img {
+header nav ul li {
+  list-style-type: none;
+  color: #000;
+  font-size: 0.875em;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+ /* .zoet {
+  font-size: 0.875em;
+  border-bottom: 0;
+  color: #000;
+  font-family: 'Roboto',sans-serif;
+  background-color: #f7f7f7;
+  padding: 0.5em 2em;
+}
+
+.zoet:nth-child(1) {
+  display: block;
+  color: #000;
+  padding: 0.5em 2em;
+} */
+
+.start img {
+  display: block;
+  width: 100%;
+}
+
+.start h1 {
+  width: 63%;
+  line-height: 1.1;
+  background-color: #fff;
+  margin-bottom: 0em;
+  padding: 0.5em 1em 0em;
+  position: absolute;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #000;
+  letter-spacing: .01em;
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  margin: 0em 0em 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header a img {
   max-width: 100%;
 }
 
@@ -24,11 +100,11 @@ header a img {
   width: 63%;
   line-height: 1.1;
   background-color: #fff;
-  /*margin-bottom: 0;*/
+  margin-bottom: 0;
   padding: 7px 15px 0;
   position: absolute;
-  /*bottom: 0;
-  left: 0;*/
+  bottom: 0;
+  left: 0;
 }
 
 .start img {
@@ -40,4 +116,4 @@ h1 {
   color: #000;
   letter-spacing: .01em;
   font-family: 'Noto Serif', serif;
-}
+} */
