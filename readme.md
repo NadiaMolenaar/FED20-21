@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://miljuschka.nl/
 2. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
-3. -...-
+3. https://css-tricks.com/almanac/ 
 
 
 
@@ -24,13 +24,39 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Agenda voor meeting
+
+  • Voor deze meeting hadden we geen agenda gemaakt. 
+
+### Stand van zaken
+
+  • Deze week heb ik door prive omstandigheden niet (tot zeer weinig) kunnen werken aan de website, hierdoor is er geen verandering te zien met de voorgaande versie.
+
+### Verslag van meeting
+De meeting verliep snel, vragen werden goed en duidelijk beantwoord. Waaronder:
+  • Het hamburgermenu hoeft niet uitgewerkt te worden, maar de categorieën hieronder worden bij de footer uitgewerkt.
+  • Voor meer toegankelijkheid ga ik werken met de hover. Als iemand over een artikel schuift wordt de tekst paars.
+  • Als een artikel is bezocht blijft de tekst ook paars. 
+  • Als een gebruiker op 'meer weergeven' klikt worden er meer artikelen geladen.
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Agenda voor meeting
+
+  • Max width bij grid toepassen
+  • De pagina refreshed wanneer de pop-up wordt afgesloten
+  • Image on hover naar rechtsboven laten bewegen in animatie
+
+### Stand van zaken
+
+  • Deze weken heb ik gewerkt aan de styling van de site, het lukte om algemene onderdelen goed toe te passen
+  
+  • Het was lastig om de ruimte tussen het hamburgermenu en de tekst weg te halen. 
+
+### Verslag van meeting
+De meeting verliep soepel, alle punten waar we op vast liepen werden op een zeer begrijpelijke mannier uitgelegd en problemen werden hierdoor ook snel verholpen. Met de hulp van Lars was het gemakkelijk om mijn styling probleem van de navigatie op te lossen.
 
 
 
@@ -53,10 +79,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
   • Pannenkoeken (hamburger) menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
   • Java; 360 turn
   • Let keyword javascript
-
-### Verslag van meeting
-
-  • 
 
 
 
