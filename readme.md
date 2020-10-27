@@ -9,6 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://miljuschka.nl/
 2. https://developer.mozilla.org/
 3. https://css-tricks.com/almanac/ 
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image 
+5. 
 
 
 
