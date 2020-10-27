@@ -1,5 +1,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> 
 
+/* @font-face {
+  font-family: 'BodoniSeventytwoITC';
+  src: url("fonts/Bodoni Seventytwo ITC Book OS.woff") format("woff");
+} */
+
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
@@ -11,15 +16,12 @@ body {
     color: #000;
     background-color: #fff;
     font-size: 1em;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-size: 0.875em;
     line-height: 1.4;
     margin: 0;
   }
 
-  section {
-    
-  }
   /* Navigatie */
   nav ul li {
     width: 100%;
@@ -27,6 +29,11 @@ body {
     margin-left: 0;
     padding: 0;
     display: block;
+  }
+
+  img {
+    display: block;
+    width: 100%;
   }
 
   .menu {
@@ -69,86 +76,342 @@ body {
     padding-right: 0.5em;
   }
  
+  /* Main */
+  .hero-image {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 55%;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 7px 15px 0;
+  }
+
+  .button {
+    font-size: 1.5em;
+    font-weight: 700;
+    width: calc(100%-2.5em);
+    padding: 0.6em 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.125em;
+    margin: 0 1.25em 0 1.25em;
+  }
+  
+  .button-puprle {
+    background-color: #6f5d77;
+    color: #fff;
+  }
+
+  .button-white {
+    background-color: #fff;
+    color: #6f5d77;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: #6f5d77;
+    margin-top: 1em;
+  }
+  
+  section:nth-child(2) {
+    margin: 0 1.25em 0 1.25em;
+  }
+
+  section:nth-child(2) h3 {
+    color: #6f5d77; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+  }
+
+  section:nth-child(2) h3:after {
+    width: 100%;
+    height: 1px;
+    content: "";
+    background: rgba(0, 12, 24, .1);
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
 /* Articles */
-article {
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  max-width: 365px;
-  background-color: #fff;
+section:nth-child(2) article >figure {
+  width: 5.5em;
+  height: 5.5em;
+  border-radius: 0.25em;
+  background-size: cover; 
+  display: inline-block;
 }
 
-img {
-  display: block;
+.afbeelding-1 {
+  background-image: url('../images/recepten/1-blog.jpg');
+}
+
+.afbeelding-2 {
+  background-image: url('../images/recepten/2-blog.jpg');
+}
+
+.afbeelding-3 {
+  background-image: url('../images/recepten/3-blog.jpg');
+}
+
+.blog-card__text {
+  width: calc(100%-5.5em);
+  padding: 0 0 0 0.625em;
+  float: left;
+}
+
+.blog-card__text >p {
+  color: #91616d;
+}
+
+section:nth-child(2) >article {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Nieuwste recepten */
+.brush {
+  margin-top: 3em;
   width: 100%;
 }
 
-/*
-.volledige-breedte {
-  position:relative;
+section:nth-child(3) h2 {
+  color: #91616d;
+  background-color: rgb(233, 245, 253);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0 0 1em 1em;
+  margin-top: 0;
 }
 
-.volledige-breedte h4 {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
+/* Selecteren van de 3e section, plus selecteren 2e kind van deze sectie (het 2e article)*/
+section:nth-child(3)  >article {
+  background-color: rgb(233, 245, 253);
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.meer {
+  font-size: 1.5em;
+  font-weight: 700;
+  width: 100%;
+  padding: 0.6em 0;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.125em;
   margin: 0;
-  padding: .5em;
-  color: #000;
+  background-color: rgb(233, 245, 253);
+  color: #6f5d77;
+  border-style: solid;
+  border-width: 0.15em;
+  border-color: #6f5d77;
+  margin-top: 1em;
+}
+
+section:nth-child(4) {
+  background-color: rgb(233, 245, 253);
+  margin-bottom: 5em;
+}
+
+section:nth-child(4) h2{
   background-color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.125em;
+  font-size: 2em;
   font-weight: 700;
+  line-height: 1.1;
+  width: 55%;
+  position: relative;
+  margin-bottom: 0;
+  top: 0;
+  padding: 7px 15px 0;
 }
-*/
 
+section:nth-child(4) h3 {
+  color: #6f5d77; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Footer 
-  details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: .5em .5em 0;
+section:nth-child(4) h3:after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  background: rgba(0, 12, 24, .1);
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
 
 summary {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  padding: 0.5em 1.25em 0.5em 1.25em;
+  color: #91616d;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.875em;
 }
 
+/* Footer */
 details[open] {
-    padding: .5em;
+  padding: .5em;
 }
 
 details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5em;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+  /* transform: rotate(-90deg); */
 }
 
-  ul {
-    padding: 0;
-    margin: 0;
-  }
+ul {
+  padding: 0;
+  margin: 0;
+}
 
-  li {
-  list-style: none;
-  }
-*/
+li {
+list-style: none;
+}
+footer section:nth-child(1) {
+  border-top: 1em solid #d2e8f8;
+  width: 100%;
+}
+
+footer section:nth-child(1) h3 {
+  color: #91616d;
+  background-color: #fff;
+  margin-bottom: 0.625em;
+  padding: 0 1em 0 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.875em;
+}
+
+form input {
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  font-family: 'Montserrat',sans-serif;
+  color: #91616d;
+  border: 0 solid rgba(145, 97, 109, .5);
+  border-radius: 6px;
+  background: #fff;
+  padding:8px 20px;
+}
+
+form input[type="email"] {
+  height: 45px;
+  font-size: 14px;
+  background-color: rgba(145, 97, 109, .1);
+  margin-right: 6px;
+  padding-left: 0 15px 0 15px;
+}
+
+.submit {
+  border: 0;
+  height: 50px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #eb5757;
+  display: block;
+  font-size: 14px;
+  min-width: 105px;
+  padding: 0 10px 0 10px;
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  border: 6px;
+  background: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer section:nth-child(2) h3 {
+  color: #91616d;
+  background-color: #fff;
+  margin-bottom: 0.625em;
+  padding: 0 1em 0 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.875em;
+}
+
+footer section:nth-child(3) h3 {
+  color: #91616d;
+  background-color: #fff;
+  margin-bottom: 0.625em;
+  padding: 0 1em 0 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.875em;
+}
+
+footer section:nth-child(4) h3 {
+  color: #91616d;
+  background-color: #fff;
+  margin-bottom: 0.625em;
+  padding: 0 1em 0 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.875em;
+}
+
+/* 
+section:nth-child(3) >article>h4 {
+  background-color: #fff;
+  font-family: Georgia, serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.1;
+  width: 55%;
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0;
+  padding: 7px 15px 0;
+}
+
+section:nth-child(2) article >figure {
+  width: 3.75em;
+  height: 3.75em;
+  border-radius: 0,25em;
+  background-size: cover; 
+  background-image: url('../images/recepten/1-blog.jpg');
+
+}
+
+section:nth-child(2) figure:nth-child(2) {
+  width: 3.75em;
+  height: 3.75em;
+  border-radius: 0,25em;
+  background-size: cover; 
+  background-image: url('../images/recepten/2-blog.jpg');
+
+}
+
+section:nth-child(2) figure:nth-child(3) {
+  width: 3.75em;
+  height: 3.75em;
+  border-radius: 0,25em;
+  background-size: cover; 
+  background-image: url('../images/recepten/3-blog.jpg');
+
+} */
+
