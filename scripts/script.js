@@ -6,7 +6,7 @@ var openMenu = document.getElementsByClassName("button-meer");
 openMenu.addEventListener("click", openen);
 
 function openen() {
-    openMenu.classList.toggle('menu');
+    openMenu.classList.toggle("");
 }
 
 /* var deP = document.querySelector("p");
