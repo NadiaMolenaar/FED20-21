@@ -485,7 +485,6 @@ footer section:nth-child(5) P {
   padding-left: 2em;
 }
 
-/* .brush-purple {
-  width: 100%;
-  margin-top: 3em;
-} */
+.verberg {
+  display: none;
+}
