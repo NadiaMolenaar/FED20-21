@@ -60,12 +60,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Tijdens het (eerste) eindgesprek was ik best een beetje nerveus. Er zat veel tijd in mijn werk, maar het was nog niet af en daar was ik wel een beetje gestresst over. Gedurende het gesprek heb ik Danny verteld waarom het nog niet af was; ik liep constant tegen problemen aan waarvan ik niet wist/niet kon vinden hoe ik het kon oplossen. Daarnaast had ik ook een andere deadline en waren mijn prioriteiten niet helemaal goed verdeeld. 
 
-Het gesprek op zichzelf liep redelijk soepel. We hebben de site bekeken, waar ik het een en ander uitgelegd heb over waar ik vast liep, wat ik eigenlijk wilde doen (en wat wel en niet gelukt is in dat opzicht), we hebben mijn code bekeken en daarvan heb ik van een aantal elemeenten uitgelegd hoe het werkt/wat voor functie dit heeft. 
+Het gesprek op zichzelf liep redelijk soepel. We hebben de site bekeken, waar ik het een en ander uitgelegd heb over waar ik vast liep, wat ik eigenlijk wilde doen en wat wel en niet gelukt is in dat opzicht. We hebben mijn code bekeken en daarvan heb ik van een aantal elementen uitgelegd hoe het werkt/wat voor functie dit heeft. 
 
-Danny heeft mij hierna feedback gegeven over dat ik beter kan focussen op de surface plane, ipv het responsive maken van de site, omdat ik erg gefocust was (en ben) op de details van de site, maar ook dat ik me niet teveel moet verliezen hierin. Als de site in grote lijnen lijkt op de echte is het ook voldoende. 
+Danny heeft mij hierna feedback gegeven over dat ik beter kan focussen op de surface plane, ipv het responsive maken van de site, omdat ik erg gefocust was (en ben) op de details, maar ook dat ik me niet teveel moet verliezen hierin. Als de site in grote lijnen lijkt op de echte is het ook voldoende. 
 
 De micro-interactie kreeg hierna een hoge prioriteit, omdat dat een uitdaging was. Met behulp van een van de student assistenten heb ik een werkende microinteractie gemaakt! Daarbij heb ik ook nog een extra detail toegevoegd: de tekst op de knop veranderd als je erop drukt. 
-
 
 
 **Screenshot(s):**
