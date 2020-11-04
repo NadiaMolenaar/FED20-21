@@ -6,13 +6,53 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. https://miljuschka.nl/
-2. https://developer.mozilla.org/
-3. https://css-tricks.com/almanac/ 
-4. https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image 
-5. 
-
-
+1. https://developer.mozilla.org/
+      • :nth-of-type()
+      • :nth-child()
+      • toggleAttribute
+      • getElementsByClassName
+      • list-style-image 
+2. https://css-tricks.com/almanac/ 
+      • align-content
+      • align-items
+      • align-self
+      
+      • background
+      • background-color
+      • background-image
+      • background-position
+      • background-repeat
+      • background-size
+      
+      • cursor
+      
+      • display
+      
+      • flex
+      • flex-basis
+      • flex-direction
+      • float
+      
+      • justify-content
+      
+      • left
+      • list-style
+      
+      • margin
+      
+      • overflow
+      
+      • padding
+      • position
+      
+      • text-align
+      • text-justify
+      • top / bottom / left / right
+      
+      • vertical-align
+      
+      • z-index
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Eindgesprek (week 7/8)
 
@@ -20,9 +60,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
-
+![Breakdown-eindresultaat - 1/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 2/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 3/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 4/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 5/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 6/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 7/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 8/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 9/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 10/10](images/1-breakdown.jpg)
 
 ## Voortgang 3 (week 6)
 
@@ -53,7 +100,7 @@ De meeting verliep snel, vragen werden goed en duidelijk beantwoord. Waaronder:
 
 ### Stand van zaken
 
-  • Deze weken heb ik gewerkt aan de styling van de site, het lukte om algemene onderdelen goed toe te passen
+  • Deze weken heb ik gewerkt aan de styling van de site, het lukte om algemene onderdelen goed toe te  passen
   
   • Het was lastig om de ruimte tussen het hamburgermenu en de tekst weg te halen. 
 
