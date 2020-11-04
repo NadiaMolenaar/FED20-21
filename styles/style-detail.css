@@ -77,6 +77,19 @@ section:nth-child(1) div >img {
   margin-bottom: 20px;
 }
   
+.hero-image {
+  animation: fadeIn ease-in 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+  }
+}
+
 .title {
   background-color: #fff;
   text-transform: uppercase;
@@ -313,17 +326,48 @@ section:nth-child(4) div >span {
   font-size: 1.5em;
   font-weight: bold;
   line-height: 3;
-  width: 12.5em;
   height: 3em;
   display: block;
   position: relative;
   text-align: center;
   border-radius: 5px;
-  background-color: #6f5d77;
   color: #fff;
   margin-top: -5em;
   margin-bottom: 5em;
+
+  animation: Martijn 5s infinite;
+
+  /* animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate; */
 }
+
+@keyframes Martijn {
+  0% { 
+    width:7.5em; 
+    background-color: #6f5d77;
+    border-radius:0; 
+  }
+  50% { 
+    width:12.5em; 
+    background-color:#91616d;
+    border-radius:.5em; 
+  }
+  100% { 
+    width:7.5em; 
+    background-color: #6f5d77;
+    border-radius:0; 
+  }
+}
+
+/* @keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+} */
 
 /* Delen */
 .brush-roze {
@@ -414,13 +458,6 @@ section:nth-child(5) div ul li:nth-of-type(4) >img {
   padding: 0.75em 0.75em 0.75em 0.75em;
 }
 
-
-
-
-
-
-
-
 /* Footer */
 details[open] summary {
   padding-bottom: 1em;
@@ -480,6 +517,23 @@ form {
   cursor: pointer;
   height: 3em;
   width: 6.125em;
+  
+  animation: Claudia 5s infinite;
+}
+
+@keyframes Claudia {
+  0% {
+    background-color: #6f5d77;
+    opacity: .75;
+  }
+  50% {
+    background-color: #eb5757;
+    opacity: 1;
+  }
+  100% {
+    background-color: #6f5d77;
+    opacity: .75;
+  }
 }
 
 footer section:nth-child(2) h5 {

@@ -87,6 +87,19 @@ body {
     position: relative;
     margin-bottom: 20px;
   }
+
+  .hero-image {
+    animation: fadeIn ease-in 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+    opacity: 0;
+   }
+   100% {
+    opacity: 1;
+    }
+  }
   
   .title {
     background-color: #fff;
@@ -112,6 +125,19 @@ body {
     text-decoration: none;
     border-radius: 0.125em;
     margin: 0 1.25em 0 1.25em;
+
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+  }
+
+  @keyframes skew {
+    0% {
+      transform: skewX(20deg);
+    }
+    100% {
+      transform: skewX(-20deg);
+    }
   }
   
   .button-puprle {
@@ -213,6 +239,14 @@ section:nth-child(3) h2 {
 }
 
 /* kaarten */
+section:nth-child(3) article {
+  margin-bottom: 3em;
+}
+
+section:nth-child(3) article:hover {
+  transform: scale(1.1);
+}
+
 section:nth-child(3) figure >img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 0.825em;
@@ -244,15 +278,6 @@ section:nth-child(3) figure >img {
   margin-bottom: 0.625em;
 }
 
-
-
-/* Selecteren van de 3e section, plus selecteren 2e kind van deze sectie (het 2e article)*/
-/* section:nth-child(3)  >article {
-  background-color: rgb(233, 245, 253);
-  margin-top: -2em;
-  padding-bottom: 5.5em;
-} */
-
 .button-meer {
   background-color: rgb(233, 245, 253);
   color: #6f5d77;
@@ -268,6 +293,19 @@ section:nth-child(3) figure >img {
   margin: 2em 1.25em 0 1.25em;
   display: block;
   width: 90%;
+
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
 }
 
 section:nth-child(4) {
@@ -316,7 +354,7 @@ summary >figure {
  margin-top: 0.5em;
 }
 
-/* Footer */
+
 section:nth-child(4) details >p >a{
   font-size: 1.5em;
   font-family: 'Montserrat',sans-serif;
@@ -347,6 +385,7 @@ li {
 list-style: none;
 }
 
+/* Footer */
 footer section:nth-child(1) {
   border-top: 1em solid #d2e8f8;
   width: 100%;
@@ -395,6 +434,23 @@ form {
   cursor: pointer;
   height: 3em;
   width: 6.125em;
+
+  animation: Claudia 5s infinite;
+}
+
+@keyframes Claudia {
+  0% {
+    background-color: #6f5d77;
+    opacity: .75;
+  }
+  50% {
+    background-color: #eb5757;
+    opacity: 1;
+  }
+  100% {
+    background-color: #6f5d77;
+    opacity: .75;
+  }
 }
 
 footer section:nth-child(2) h5 {
