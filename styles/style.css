@@ -317,7 +317,6 @@ summary >figure {
 }
 
 /* Footer */
-
 section:nth-child(4) details >p >a{
   font-size: 1.5em;
   font-family: 'Montserrat',sans-serif;
@@ -328,6 +327,7 @@ section:nth-child(4) details >p >a{
   margin: 0 1.25em 0 1.25em;
   width: calc(100%-2.5em);
 }
+
 details[open] summary {
   padding-bottom: 1em;
   background: #fff;
