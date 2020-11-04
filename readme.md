@@ -9,9 +9,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://developer.mozilla.org/
       • :nth-of-type()
       • :nth-child()
-      • toggleAttribute
       • getElementsByClassName
       • list-style-image 
+      • toggleAttribute
+      
 2. https://css-tricks.com/almanac/ 
       • align-content
       • align-items
@@ -52,6 +53,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
       • vertical-align
       
       • z-index
+      
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Eindgesprek (week 7/8)
@@ -60,16 +62,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Breakdown-eindresultaat - 1/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 2/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 3/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 4/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 5/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 6/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 7/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 8/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 9/10](images/1-breakdown.jpg)
-![Breakdown-eindresultaat - 10/10](images/1-breakdown.jpg)
+![Breakdown-eindresultaat - 1/10](images/breakdown/breakdown-1.png)
+![Breakdown-eindresultaat - 2/10](images/breakdown/breakdown-2.png)
+![Breakdown-eindresultaat - 3/10](images/breakdown/breakdown-3.png)
+![Breakdown-eindresultaat - 4/10](images/breakdown/breakdown-4.png)
+![Breakdown-eindresultaat - 5/10](images/breakdown/breakdown-5.png)
+![Breakdown-eindresultaat - 6/10](images/breakdown/breakdown-6.png)
+![Breakdown-eindresultaat - 7/10](images/breakdown/breakdown-7.png)
+![Breakdown-eindresultaat - 8/10](images/breakdown/breakdown-8.png)
+![Breakdown-eindresultaat - 9/10](images/breakdown/breakdown-9.png)
+![Breakdown-eindresultaat - 10/10](images/breakdown/breakdown-10.png)
 
 ## Voortgang 3 (week 6)
 
