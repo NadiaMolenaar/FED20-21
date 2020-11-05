@@ -55,6 +55,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
       • z-index
       
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+6. https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/
 
 ## Eindgesprek (week 7/8)
 
@@ -66,7 +69,7 @@ Danny heeft mij hierna feedback gegeven over dat ik beter kan focussen op de sur
 
 De micro-interactie kreeg hierna een hoge prioriteit, omdat dat een uitdaging was. Met behulp van een van de student assistenten heb ik een werkende microinteractie gemaakt! Daarbij heb ik ook nog een extra detail toegevoegd: de tekst op de knop veranderd als je erop drukt. 
 
-Verder heb ik ook een aantal animaties toegevoegd aan de CSS. In eerste instantie dacht ik dat het heel lastig zou zijn, maar het viel me alles mee! Wel heb ik het gevoel "less is more", maar daar heb ik geen gebruik van gemaakt. Ik ben los gegaan met de animaties, want ik vond het gewoon zo leuk. Plus het geeft wat meer verrassingen op de site. 
+Verder heb ik ook een aantal animaties toegevoegd aan de CSS. In eerste instantie dacht ik dat het heel lastig zou zijn, maar het viel me alles mee! Wel heb ik het gevoel "less is more", maar daar heb ik geen gebruik van gemaakt. Ik ben los gegaan met de animaties, want ik vond het gewoon zo leuk. Plus het geeft wat meer verrassingen op de site, waardoor hij niet zo statisch is. 
 
 **Screenshot(s):**
 
