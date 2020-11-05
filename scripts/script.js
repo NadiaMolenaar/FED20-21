@@ -16,6 +16,8 @@ openMenu.addEventListener("click", function() {
     openMenu.textContent = "Meer nieuwe recepten";
     }
 
+    // De toggle methode kijkt of een element verborgen is, of weergegeven wordt.
+    // Op basis hiervan wordt er een functie uitgevoerd om een element te verbergen of weer te geven.
     nieuweArtikelen.classList.toggle("verberg");
    }); 
 
